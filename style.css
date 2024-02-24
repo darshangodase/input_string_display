@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  img{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+   .container{
+    position: relative;
+    height: 50vh;
+    width: 60vw;
+    background-color: rgba(118, 43, 104, 0.688);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+     color: black;
+   }
+
+.container h1{
+  font-size:7vh ;
+  font-weight:700 ;
+  white-space:   wrap;
+  margin-bottom: 6vh;
+}
+
+.container input{
+  position: absolute;
+  bottom: 22%;
+  border: 1px solid transparent;
+  height: 5vh;
+  width: 30vw;
+  margin-bottom: 12vh;
+  background-color: transparent;
+  
+  /* transition: border 0.3s; */
+  
+}
+
+.container input:focus {
+  border: none; 
+}
+.container input::placeholder {
+  color: #ccc; 
+  font-size: large;
+}
+.input-field {
+  font-size: 1.3vw;
+   color: black;
+   font-weight: 450;
+}
+.line{
+  position: absolute;
+  top: 54%;
+  height: 2px;
+  width: 30vw;
+  background-color: black;
+}
+.container button{
+  position: absolute;
+  font-size: larger;
+  top: 59%;
+  height: 5vh;
+  width: 9vw;
+  border-radius: 0.5vw;
+  margin-top: 0.2vh;
+  background-color: black;
+  color: white;
+   
+}
+.container h2{
+  position: relative;
+   top: 17%;
+  bottom: 9vw;
+  font-size:2vw ;
+  font-weight:600 ;
+  padding-bottom: 12vh;
+}
+.display{
+  position: absolute;
+  top: 87%;
+  height: 5vh;
+  width: 30vw;
+  background-color: white;
+  border-radius: 0.5vh;
+  bottom: 15%;
+  color: black;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: center;
+}
+   
+  
